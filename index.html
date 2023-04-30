@@ -15,7 +15,8 @@
       RazorpayClone - Best Payment Solution for Online Payments India
     </title>
   </head>
-  <body>
+  <body class="overflow-x-hidden">
+    <!-- navbar -->
     <nav class="bg-deepBlue">
       <div
         class="relative flex w-[1080px] mx-auto items-center justify-between"
@@ -121,5 +122,53 @@
         </div>
       </div>
     </nav>
+
+    <!-- hero section -->
+    <section class="relative bg-deepBlue">
+      <div class="flex justify-between items-center gap-4 w-[1080px] mx-auto">
+        <!-- left part -->
+        <div class="space-y-8">
+          <h1
+            class="text-white font-mullish text-[2.5rem] leading-[1.2] font-bold mb-4"
+          >
+            Power your finance, grow your business
+          </h1>
+          <div class="w-6 h-1 bg-greenLight"></div>
+          <p class="font-mullish text-lg leading-7 text-white opacity-70">
+            Accept payments from customers. Automate payouts to vendors &
+            employees. Never run out of working capital.
+          </p>
+          <button
+            class="flex items-center gap-2 text-white bg-lightBlue rounded font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200 py-[14px] px-[18px]"
+          >
+            Sing Up Now
+            <span>
+              <svg
+                viewBox="0 0 24 24"
+                width="1em"
+                height="1em"
+                focusable="false"
+                class="chakra-icon css-onkibi"
+                data-testid="right-icon"
+              >
+                <path
+                  fill="currentColor"
+                  d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                ></path>
+              </svg>
+            </span>
+          </button>
+        </div>
+
+        <!-- right part -->
+        <div class="pl-0">
+          <img class="" src="./images//hero-illustration.jpg" alt="" />
+        </div>
+      </div>
+      <!-- shape part -->
+      <div class="absolute left-0 right-0 w-[100.1%]">
+        <img class="w-full" src="./images/hero-shape.svg" alt="" />
+      </div>
+    </section>
   </body>
 </html>
