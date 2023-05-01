@@ -11,6 +11,10 @@
       href="https://razorpay.com/build/browser/static/favicon-default.9e0f1b99.png"
     />
     <link rel="stylesheet" href="main.css" />
+    <!-- <script src="https://unpkg.com/feather-icons"></script> -->
+    <!-- choose one -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
     <title>
       RazorpayClone - Best Payment Solution for Online Payments India
     </title>
@@ -141,7 +145,7 @@
           <button
             class="flex items-center gap-2 text-white bg-lightBlue rounded font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200 py-[14px] px-[18px]"
           >
-            Sing Up Now
+            Sign Up Now
             <span>
               <svg
                 viewBox="0 0 24 24"
@@ -170,5 +174,113 @@
         <img class="w-full" src="./images/hero-shape.svg" alt="" />
       </div>
     </section>
+
+    <!-- feature section -->
+    <section class="relative mt-[175px] overflow-hidden">
+      <img
+        class="absolute -top-[8rem] left-[10rem]"
+        src="/images/feature-section1-dottedrows.png"
+        alt="dotted-img"
+        loading="lazy"
+        width="233"
+        height="167"
+      />
+      <img
+        class="absolute top-[3rem] right-1 rotate-180 inline-block"
+        src="/images/feature-section1-dottedrows.png"
+        alt="dotted-img"
+        loading="lazy"
+        width="233"
+        height="167"
+      />
+      <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
+        <h2 class="font-mullish text-center text-2xl leading-[1.2] font-bold">
+          Accept Payments with Razorpay Payment Suite
+        </h2>
+        <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6"></div>
+        <!-- content box -->
+        <div
+          class="w-full min-h-[520px] bg-white border flex rounded-md relative p-10 py-12 mt-20"
+        >
+          <!-- left section -->
+          <div class="flex flex-col justify-between w-full">
+            <h3
+              class="font-mullish font-bold text-[28px] leading-10 max-w-[500px]"
+            >
+              Supercharge your business with the all‑powerful
+              <span class="text-lightBlue">Payment Gateway</span>
+            </h3>
+            <ul class="space-y-2">
+              <li class="font-mullish flex items-center gap-2">
+                <i data-feather="check" class="text-greenLight"></i>
+                <span>100+ Payment Methods</span>
+              </li>
+              <li class="font-mullish flex items-center gap-2">
+                <i data-feather="check" class="text-greenLight"></i>
+                <span>Industry Leading Success Rate</span>
+              </li>
+              <li class="font-mullish flex items-center gap-2">
+                <i data-feather="check" class="text-greenLight"></i>
+                <span>Superior Checkout Experience</span>
+              </li>
+              <li class="font-mullish flex items-center gap-2">
+                <i data-feather="check" class="text-greenLight"></i>
+                <span>Easy to Integrate</span>
+              </li>
+              <li class="font-mullish flex items-center gap-2">
+                <i data-feather="check" class="text-greenLight"></i>
+                <span>Instant Settlements from day 1</span>
+              </li>
+              <li class="font-mullish flex items-center gap-2">
+                <i data-feather="check" class="text-greenLight"></i>
+                <span>In-depth Reporting and Insights</span>
+              </li>
+            </ul>
+            <!-- for button and hyperlink -->
+            <div class="flex gap-4 items-center">
+              <button
+                class="flex items-center gap-2 text-white bg-lightBlue rounded font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200 py-[14px] px-[18px]"
+              >
+                Sign Up Now
+                <span>
+                  <svg
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    height="1em"
+                    focusable="false"
+                    class="chakra-icon css-onkibi"
+                    data-testid="right-icon"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                    ></path>
+                  </svg>
+                </span>
+              </button>
+              <div class="flex gap-2 items-center cursor-pointer group">
+                <a
+                  href="#"
+                  class="font-mullish font-bold text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"
+                  >Know More</a
+                >
+                <i
+                  data-feather="chevron-right"
+                  class="text-lightBlue500 w-5 h-5 group-hover:text-grayBlue transition-all duration-200"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <img
+            src="./images/payment-suite.png"
+            alt=""
+            class="max-w-[600px] absolute right-0 bottom-0"
+          />
+        </div>
+      </div>
+    </section>
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>
