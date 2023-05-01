@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card-container {
+  cursor: pointer;
+}
+
+.card-container:hover::after {
+  content: "";
+  position: absolute;
+  width: 5rem;
+  height: 3.4rem;
+  background-image: url(https://razorpay.com/build/browser/static/wave-blue.3362585e.svg);
+  bottom: 1.1rem;
+  right: 0px;
+  z-index: 1000;
+}
